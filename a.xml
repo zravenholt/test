@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [<!ENTITY appname "must echo through">]>
+<resources custom-attribute="must-be-present-in-translated-file">
+    <string name="key-1">The [[quick]] brown fox jumped over the lazy dog.</string>
+    <string name="key-2">You don't look a gift horse \n In the mouth</string>
+    <!-- Provide context for linguists as comments in the source file -->    
+    <string name="account_activation">Activate your account now!</string>
+    <plurals name="key-plural-1">
+        <item quantity="one">I have already told you %d time</item>
+        <item quantity="many">I have already told you %d times</item>
+        <item quantity="other">I have already told you %d times</item>
+    </plurals>
+    <string-array name="day_of_week">
+        <!-- First day of the week -->
+        <item>Monday is the first day</item>
+        <item>the rest</item>
+    </string-array>
+    <string name="key-0"></string>
+    <string name="ignore-key-1" translatable="false">Do not extract; must not be present in translated file</string>
+</resources>
+
+
